@@ -1,0 +1,25 @@
+body {
+  background: #0f172a;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+#games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  padding: 20px;
+}
+
+.game {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.game:hover {
+  background: #334155;
+  transform: scale(1.04);
+}
